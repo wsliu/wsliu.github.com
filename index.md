@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LANNIER'S　BLOG
-tagline: Make it works first
+tagline: First make it work
 ---
 
 {% assign listing_limit = 5 %}

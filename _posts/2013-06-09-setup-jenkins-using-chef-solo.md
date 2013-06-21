@@ -24,8 +24,10 @@ Chef-solo则不需要Server， 直接在目标机上进行配置。
 ## 步骤
 
 ###1. 安装chef-solo
-安装chef-solo的方式有很多种，这里提供其中一种方法。
-先安装ruby， 在用ruby安装chef gem包。我这里用的ruby版本是1.9.3
+安装chef-solo的方式有很多种，这里提供其中一种方法。  
+先安装ruby， 在用ruby安装chef gem包。我这里用的ruby版本是1.9.3   
+这里不再介绍如何安装ruby，直接google一下吧。
+附，我是通过rvm装的，如果你也采用此方法，建议切换到root目录下安装rvm，之后的操作也通过root来，不然就有一堆权限问题等着你来解决。这里偷个懒
 
 ###2. 下载blank chef-repo
 这是一个空的chef repository，可以以此为基础建立自己的chef-repo
